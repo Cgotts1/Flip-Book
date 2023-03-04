@@ -92,6 +92,22 @@ img{
 
 #b1, #f2, #b2, #f3{
     background-image: url('https://images.unsplash.com/photo-1615800098779-1be32e60cca3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8cGFwZXIlMjB0ZXh0dXJlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60');
+    /* background-image: url('https://images.unsplash.com/photo-1528458876861-544fd1761a91?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8ODl8fHBhcGVyJTIwdGV4dHVyZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60'); */
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Labrada&display=swap');
+
+h3{
+   
+    color: black;
+    font-style: italic;
+}
+
+p{
+    padding: 20px;
+    color:black;
+    font-family: 'Labrada', serif;
+    letter-spacing: 0.5px;
 }
 
 /* Paper Flip Effect*/
