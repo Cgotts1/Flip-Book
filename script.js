@@ -6,6 +6,7 @@ const book = document.querySelector("#book");
 const paper1 = document.querySelector("#p1");
 const paper2 = document.querySelector("#p2");
 const paper3 = document.querySelector("#p3");
+// const paper4 = document.querySelector("#p4");
 
 //Event Listener
 
@@ -51,6 +52,10 @@ function goNextPage() {
         paper2.style.zIndex = 2;
 
         break;
+        // case 3:
+        // paper3.classList.add("flipped");
+        // paper3.style.zIndex = 3;
+        // break;
       case 3:
         paper3.classList.add("flipped");
         paper3.style.zIndex = 3;
@@ -77,6 +82,11 @@ function goPrevPage() {
             paper2.style.zIndex = 2;
     
             break;
+            // case 4:
+            // paper3.classList.remove("flipped");
+            // paper3.style.zIndex = 1;
+    
+            // break;
           case 4:
             openBook()
             paper3.classList.remove("flipped");

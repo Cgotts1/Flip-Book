@@ -110,6 +110,10 @@ p{
     letter-spacing: 0.5px;
 }
 
+#b3 p{
+    color:white;
+}
+
 /* Paper Flip Effect*/
 .flipped .front,
 .flipped .back{
